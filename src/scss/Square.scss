@@ -1,0 +1,43 @@
+/** @format */
+
+.square__container {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+
+	.square__over {
+		width: 50px;
+		height: 50px;
+		background-color: "yellow";
+	}
+
+	&.square_border_top_left {
+		border-top-left-radius: 5px;
+	}
+	&.square_border_top_right {
+		border-top-right-radius: 5px;
+	}
+	&.square_border_bottom_left {
+		border-bottom-left-radius: 5px;
+	}
+	&.square_border_bottom_right {
+		border-bottom-right-radius: 5px;
+	}
+
+	.square__wrapper {
+		width: 40px;
+		height: 40px;
+		border-radius: 100%;
+		// cursor: pointer;
+		&.square__computer {
+			background-color: red;
+		}
+
+		&.square__user {
+			background-color: black;
+		}
+	}
+}

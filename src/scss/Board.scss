@@ -1,0 +1,10 @@
+/** @format */
+
+.board__container {
+	border-radius: 5px;
+
+	.cell__container {
+		display: flex;
+		flex-direction: row;
+	}
+}
